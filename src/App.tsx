@@ -434,7 +434,7 @@ function App() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Email Support</h3>
                   <p className="text-gray-600 mb-2">Get help with your account, technical issues, or general questions</p>
                   <a href="mailto:support@glycemix.com" className="text-blue-600 hover:text-blue-700 font-medium">
-                    support@glycemix.com
+                    No email yet
                   </a>
                 </div>
               </div>
@@ -447,7 +447,7 @@ function App() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Phone Support</h3>
                   <p className="text-gray-600 mb-2">Speak directly with our support team</p>
                   <a href="tel:+1-555-GLYCEMIX" className="text-blue-600 hover:text-blue-700 font-medium">
-                    +1 (555) GLYCEMIX
+                    No number yet
                   </a>
                   <p className="text-sm text-gray-500 mt-1">Monday - Friday, 9 AM - 6 PM EST</p>
                 </div>
@@ -460,8 +460,8 @@ function App() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Office Location</h3>
                   <p className="text-gray-600">
-                    123 Health Tech Drive<br />
-                    San Francisco, CA 94105<br />
+                    <br />
+                    Los Angeles, CA<br />
                     United States
                   </p>
                 </div>
