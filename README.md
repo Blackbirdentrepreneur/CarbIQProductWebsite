@@ -43,10 +43,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-> For **Vite**, use `npm run dev`.  
-> For **Create React App**, use `npm start`.
-
 ---
 
 ## Production Build
@@ -67,7 +63,7 @@ Need help or want to collaborate?
 
 ---
 
-## 📄 License
+## License
 
 **Private Project** – Not licensed for redistribution without permission.  
 © Glycemix, 2025. All rights reserved.
