@@ -1,7 +1,7 @@
 GlycemixProductWebsite
 # Glycemix – AI Diabetes Companion
 
-A sleek, responsive, and high-conversion site for the **Glycemix mobile app** — a smart diabetes and prediabetes management tool powered by AI. This React + Tailwind CSS site is built to drive downloads and educate users on the app's powerful features.
+A site for the **Glycemix mobile app** — a smart diabetes and prediabetes management tool powered by AI. This React + Tailwind CSS site is built to drive downloads and educate users on the app's powerful features.
 
 ---
 
