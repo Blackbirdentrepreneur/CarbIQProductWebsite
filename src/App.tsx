@@ -14,7 +14,7 @@ function App() {
       icon: Camera,
       title: "Instant Blood Sugar Impact Predictions",
       description: "Simply snap a photo of your food and instantly get predictions of blood sugar impact—whether it's low, medium, or high, plus accurate carb counts.",
-      gradient: "from-blue-500 to-purple-600"
+      gradient: "from-blue-500 to-blue-700"
     },
     {
       icon: Heart,
@@ -132,7 +132,7 @@ function App() {
                 href="https://apps.apple.com/app/glycemix" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
               >
                 Download App
               </a>
@@ -149,7 +149,7 @@ function App() {
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                   Manage Diabetes with 
-                  <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"> AI Intelligence</span>
+                  <span className="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent"> AI Intelligence</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
                   Managing diabetes or prediabetes is challenging, but with Glycemix, it's easier than ever. 
@@ -206,7 +206,7 @@ function App() {
                 <div className="w-80 h-[600px] mx-auto bg-gray-900 rounded-[3rem] p-2 shadow-2xl">
                   <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden">
                     {/* Mock App Interface */}
-                    <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-6 text-white">
+                    <div className="bg-gradient-to-r from-blue-500 to-blue-700 p-6 text-white">
                       <div className="flex items-center justify-between mb-4">
                         <div className="text-sm opacity-90">9:41</div>
                         <div className="flex space-x-1">
@@ -238,7 +238,7 @@ function App() {
                         </div>
                       </div>
                       
-                      <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl p-4 text-white">
+                      <div className="bg-gradient-to-r from-blue-500 to-blue-700 rounded-xl p-4 text-white">
                         <div className="flex items-center space-x-2 mb-2">
                           <Camera className="w-4 h-4" />
                           <span className="text-sm font-medium">Scan Food</span>
@@ -270,7 +270,7 @@ function App() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center group">
-              <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Camera className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">1. Snap a Photo</h3>
@@ -379,7 +379,7 @@ function App() {
               <div key={index} className={`bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 relative ${plan.popular ? 'ring-2 ring-blue-500 scale-105' : ''}`}>
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                    <span className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-4 py-2 rounded-full text-sm font-semibold">
                       Most Popular
                     </span>
                   </div>
@@ -405,7 +405,7 @@ function App() {
 
                 <button className={`w-full py-3 px-6 rounded-xl font-semibold transition-all duration-300 ${
                   plan.popular 
-                    ? 'bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:shadow-lg transform hover:scale-105' 
+                    ? 'bg-gradient-to-r from-blue-500 to-blue-700 text-white hover:shadow-lg transform hover:scale-105' 
                     : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
                 }`}>
                   {plan.cta}
@@ -427,7 +427,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="space-y-8">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Mail className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -524,7 +524,7 @@ function App() {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                  className="w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white py-3 px-6 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                 >
                   Send Message
                 </button>
@@ -618,7 +618,7 @@ function App() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-500 to-purple-600">
+      <section className="py-20 bg-gradient-to-r from-blue-500 to-blue-700">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-4">
             Ready to Take Control of Your Diabetes?
@@ -664,7 +664,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg flex items-center justify-center">
                   <Heart className="w-5 h-5 text-white" />
                 </div>
                 <span className="text-xl font-bold">Glycemix</span>
