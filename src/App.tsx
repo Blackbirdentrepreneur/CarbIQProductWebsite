@@ -688,8 +688,6 @@ function App() {
               <ul className="space-y-2 text-gray-400">
                 <li><button onClick={() => scrollToSection('contact')} className="hover:text-white transition-colors">Contact Us</button></li>
                 <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Community</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Status</a></li>
               </ul>
             </div>
 
@@ -698,8 +696,6 @@ function App() {
               <ul className="space-y-2 text-gray-400">
                 <li><button onClick={() => scrollToSection('legal')} className="hover:text-white transition-colors">Privacy Policy</button></li>
                 <li><button onClick={() => scrollToSection('legal')} className="hover:text-white transition-colors">Terms of Use</button></li>
-                <li><a href="#" className="hover:text-white transition-colors">Security</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Compliance</a></li>
               </ul>
             </div>
           </div>
