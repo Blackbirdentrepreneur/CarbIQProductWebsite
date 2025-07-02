@@ -114,9 +114,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg flex items-center justify-center">
-                <Heart className="w-5 h-5 text-white" />
-              </div>
+              <img src="/glycemix-icon.png" alt="Glycemix" className="w-8 h-8" />
               <span className="text-xl font-bold text-gray-900">Glycemix</span>
             </div>
             
@@ -213,7 +211,10 @@ function App() {
                           <div className="w-4 h-2 bg-white rounded-sm opacity-90"></div>
                         </div>
                       </div>
-                      <h2 className="text-2xl font-bold mb-2">Glycemix</h2>
+                      <div className="flex items-center space-x-2 mb-2">
+                        <img src="/glycemix-icon.png" alt="Glycemix" className="w-6 h-6" />
+                        <h2 className="text-2xl font-bold">Glycemix</h2>
+                      </div>
                       <p className="text-sm opacity-90">Your AI diabetes companion</p>
                     </div>
                     
@@ -664,9 +665,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg flex items-center justify-center">
-                  <Heart className="w-5 h-5 text-white" />
-                </div>
+                <img src="/glycemix-icon.png" alt="Glycemix" className="w-8 h-8" />
                 <span className="text-xl font-bold">Glycemix</span>
               </div>
               <p className="text-gray-400">
