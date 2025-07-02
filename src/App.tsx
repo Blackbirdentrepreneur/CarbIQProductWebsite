@@ -68,9 +68,9 @@ function App() {
     },
     {
       name: "Yearly",
-      price: "$23.99",
+      price: "$19.99",
       period: "year",
-      description: "Best value - Save 50%",
+      description: "Best value - Save 25%",
       features: [
         "Everything in Monthly",
         "Priority support",
@@ -79,7 +79,7 @@ function App() {
         "Exclusive features"
       ],
       popular: false,
-      cta: "Save 50%"
+      cta: "Save 25%"
     }
   ];
 
