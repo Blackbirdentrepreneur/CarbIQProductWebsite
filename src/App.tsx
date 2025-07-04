@@ -87,7 +87,7 @@ function App() {
     {
       name: "Sarah Johnson",
       role: "Type 2 Diabetes",
-      content: "Glycemix has completely transformed how I manage my diabetes. The food scanning feature is incredibly accurate and helps me make better choices every day.",
+      content: "CarbIQ has completely transformed how I manage my diabetes. The food scanning feature is incredibly accurate and helps me make better choices every day.",
       rating: 5,
       avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
     },
@@ -101,7 +101,7 @@ function App() {
     {
       name: "Dr. Emily Rodriguez",
       role: "Endocrinologist",
-      content: "I recommend Glycemix to my patients. The data insights help both patients and healthcare providers make more informed treatment decisions.",
+      content: "I recommend CarbIQ to my patients. The data insights help both patients and healthcare providers make more informed treatment decisions.",
       rating: 5,
       avatar: "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
     }
@@ -114,8 +114,8 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <img src="/glycemix-icon.png" alt="Glycemix" className="w-8 h-8 rounded-lg" />
-              <span className="text-xl font-bold text-gray-900">Glycemix</span>
+              <img src="/CarbIQ-icon.png" alt="CarbIQ" className="w-8 h-8 rounded-lg" />
+              <span className="text-xl font-bold text-gray-900">CarbIQ</span>
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
@@ -127,7 +127,7 @@ function App() {
 
             <div className="flex items-center space-x-4">
               <a 
-                href="https://apps.apple.com/app/glycemix" 
+                href="https://apps.apple.com/app/CarbIQ" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
@@ -150,14 +150,14 @@ function App() {
                   <span className="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent"> AI Intelligence</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Managing diabetes or prediabetes is challenging, but with Glycemix, it's easier than ever. 
+                  Managing diabetes or prediabetes is challenging, but with CarbIQ, it's easier than ever. 
                   Track your progress and make smarter choices with AI-powered food analysis and personalized insights.
                 </p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="https://apps.apple.com/app/glycemix" 
+                  href="https://apps.apple.com/app/CarbIQ" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center space-x-3 bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg"
@@ -170,7 +170,7 @@ function App() {
                 </a>
                 
                 <a 
-                  href="https://play.google.com/store/apps/details?id=com.glycemix" 
+                  href="https://play.google.com/store/apps/details?id=com.CarbIQ" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center space-x-3 bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg"
@@ -212,8 +212,8 @@ function App() {
                         </div>
                       </div>
                       <div className="flex items-center space-x-2 mb-2">
-                        <img src="/glycemix-icon.png" alt="Glycemix" className="w-6 h-6 rounded-md" />
-                        <h2 className="text-2xl font-bold">Glycemix</h2>
+                        <img src="/CarbIQ-icon.png" alt="CarbIQ" className="w-6 h-6 rounded-md" />
+                        <h2 className="text-2xl font-bold">CarbIQ</h2>
                       </div>
                       <p className="text-sm opacity-90">Your AI diabetes companion</p>
                     </div>
@@ -263,7 +263,7 @@ function App() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">How Glycemix Works</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">How CarbIQ Works</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Three simple steps to better diabetes management with AI-powered insights
             </p>
@@ -434,7 +434,7 @@ function App() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Email Support</h3>
                   <p className="text-gray-600 mb-2">Get help with your account, technical issues, or general questions</p>
-                  <a href="mailto:support@glycemix.com" className="text-blue-600 hover:text-blue-700 font-medium">
+                  <a href="mailto:support@CarbIQ.com" className="text-blue-600 hover:text-blue-700 font-medium">
                     No email yet
                   </a>
                 </div>
@@ -447,7 +447,7 @@ function App() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Phone Support</h3>
                   <p className="text-gray-600 mb-2">Speak directly with our support team</p>
-                  <a href="tel:+1-555-GLYCEMIX" className="text-blue-600 hover:text-blue-700 font-medium">
+                  <a href="tel:+1-555-CarbIQ" className="text-blue-600 hover:text-blue-700 font-medium">
                     No number yet
                   </a>
                   <p className="text-sm text-gray-500 mt-1">Monday - Friday, 9 AM - 6 PM EST</p>
@@ -576,7 +576,7 @@ function App() {
                 <p>You have the right to access, update, or delete your personal information. You can also opt out of certain communications and data processing activities.</p>
 
                 <h4 className="font-semibold text-gray-900 mt-6">Contact Us</h4>
-                <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:privacy@glycemix.com" className="text-blue-600 hover:text-blue-700">privacy@glycemix.com</a>.</p>
+                <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:privacy@CarbIQ.com" className="text-blue-600 hover:text-blue-700">privacy@CarbIQ.com</a>.</p>
               </div>
             </div>
 
@@ -585,13 +585,13 @@ function App() {
                 <FileText className="w-8 h-8 text-purple-500 mr-3" />
                 <h3 className="text-2xl font-bold text-gray-900">Terms of Use</h3>
               </div>
-              
+             
               <div className="space-y-4 text-gray-700">
                 <h4 className="font-semibold text-gray-900">Acceptance of Terms</h4>
-                <p>By accessing and using Glycemix, you accept and agree to be bound by the terms and provision of this agreement.</p>
+                <p>By accessing and using CarbIQ, you accept and agree to be bound by the terms and provision of this agreement.</p>
 
                 <h4 className="font-semibold text-gray-900 mt-6">Medical Disclaimer</h4>
-                <p>Glycemix is designed to support diabetes management but is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with qualified healthcare providers regarding your health.</p>
+                <p>CarbIQ is designed to support diabetes management but is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with qualified healthcare providers regarding your health.</p>
 
                 <h4 className="font-semibold text-gray-900 mt-6">User Responsibilities</h4>
                 <ul className="list-disc list-inside space-y-2 ml-4">
@@ -605,13 +605,13 @@ function App() {
                 <p>Paid subscriptions automatically renew unless cancelled. You can cancel your subscription at any time through your account settings or by contacting support.</p>
 
                 <h4 className="font-semibold text-gray-900 mt-6">Limitation of Liability</h4>
-                <p>Glycemix shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the service.</p>
+                <p>CarbIQ shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the service.</p>
 
                 <h4 className="font-semibold text-gray-900 mt-6">Changes to Terms</h4>
                 <p>We reserve the right to modify these terms at any time. We will notify users of significant changes via email or in-app notifications.</p>
 
                 <h4 className="font-semibold text-gray-900 mt-6">Contact Information</h4>
-                <p>For questions about these Terms of Use, contact us at <a href="mailto:legal@glycemix.com" className="text-blue-600 hover:text-blue-700">legal@glycemix.com</a>.</p>
+                <p>For questions about these Terms of Use, contact us at <a href="mailto:legal@CarbIQ.com" className="text-blue-600 hover:text-blue-700">legal@CarbIQ.com</a>.</p>
               </div>
             </div>
           </div>
@@ -625,13 +625,13 @@ function App() {
             Ready to Take Control of Your Diabetes?
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of users who are already managing their diabetes more effectively with Glycemix. 
+            Join thousands of users who are already managing their diabetes more effectively with CarbIQ. 
             Start your free trial today.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://apps.apple.com/app/glycemix" 
+              href="https://apps.apple.com/app/CarbIQ" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center space-x-3 bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg"
@@ -644,7 +644,7 @@ function App() {
             </a>
             
             <a 
-              href="https://play.google.com/store/apps/details?id=com.glycemix" 
+              href="https://play.google.com/store/apps/details?id=com.CarbIQ" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center space-x-3 bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg"
@@ -665,8 +665,8 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <img src="/glycemix-icon.png" alt="Glycemix" className="w-8 h-8 rounded-lg" />
-                <span className="text-xl font-bold">Glycemix</span>
+                <img src="/CarbIQ-icon.png" alt="CarbIQ" className="w-8 h-8 rounded-lg" />
+                <span className="text-xl font-bold">CarbIQ</span>
               </div>
               <p className="text-gray-400">
                 Empowering people with diabetes to live healthier lives through AI-powered insights and personalized care.
@@ -702,7 +702,7 @@ function App() {
 
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 Glycemix. All rights reserved.
+              © 2025 CarbIQ. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
