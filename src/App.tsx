@@ -665,7 +665,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <img src="/CarbIQ-icon.png" alt="CarbIQ" className="w-8 h-8 rounded-lg" />
+                <img src="/glycemix-icon.png" alt="CarbIQ" className="w-8 h-8 rounded-lg" />
                 <span className="text-xl font-bold">CarbIQ</span>
               </div>
               <p className="text-gray-400">
