@@ -170,7 +170,7 @@ export default function MainScreen() {
       // Set initial welcome message if no conversations exist
       const welcomeMessage: Message = {
         id: 'welcome',
-        text: "Hi! I'm Glycemix AI",
+        text: "Hi! I'm CarbIQ ",
         isBot: true,
         timestamp: new Date(),
       };
@@ -779,7 +779,7 @@ export default function MainScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
           <Heart size={60} color={Colors.primary} />
-          <Text style={styles.loadingText}>Glycemix</Text>
+          <Text style={styles.loadingText}>CarbIQ</Text>
           <Text style={styles.loadingSubtext}>Loading...</Text>
         </View>
       </SafeAreaView>
@@ -884,7 +884,7 @@ export default function MainScreen() {
             <TouchableOpacity style={styles.menuButton} onPress={toggleDashboard}>
               <Menu size={24} color={"white"} />
             </TouchableOpacity>
-            <Text style={styles.headerTitle}>Glycemix</Text>
+            <Text style={styles.headerTitle}>CarbIQ</Text>
             <TouchableOpacity style={styles.settingsButton} onPress={toggleSettings}>
               <Settings size={24} color={"white"} />
             </TouchableOpacity>
