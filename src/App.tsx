@@ -212,7 +212,7 @@ function App() {
                         </div>
                       </div>
                       <div className="flex items-center space-x-2 mb-2">
-                        <img src="/Glycemix-icon.png" alt="CarbIQ" className="w-6 h-6 rounded-md" />
+                        <img src="/glycemix-icon.png" alt="CarbIQ" className="w-6 h-6 rounded-md" />
                         <h2 className="text-2xl font-bold">CarbIQ</h2>
                       </div>
                       <p className="text-sm opacity-90">Your AI diabetes companion</p>
