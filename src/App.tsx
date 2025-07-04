@@ -114,7 +114,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <img src="/glycemix-icon.png" alt="Glycemix" className="w-8 h-8" />
+              <img src="/glycemix-icon.png" alt="Glycemix" className="w-8 h-8 rounded-lg" />
               <span className="text-xl font-bold text-gray-900">Glycemix</span>
             </div>
             
@@ -212,7 +212,7 @@ function App() {
                         </div>
                       </div>
                       <div className="flex items-center space-x-2 mb-2">
-                        <img src="/glycemix-icon.png" alt="Glycemix" className="w-6 h-6" />
+                        <img src="/glycemix-icon.png" alt="Glycemix" className="w-6 h-6 rounded-md" />
                         <h2 className="text-2xl font-bold">Glycemix</h2>
                       </div>
                       <p className="text-sm opacity-90">Your AI diabetes companion</p>
@@ -665,7 +665,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <img src="/glycemix-icon.png" alt="Glycemix" className="w-8 h-8" />
+                <img src="/glycemix-icon.png" alt="Glycemix" className="w-8 h-8 rounded-lg" />
                 <span className="text-xl font-bold">Glycemix</span>
               </div>
               <p className="text-gray-400">
