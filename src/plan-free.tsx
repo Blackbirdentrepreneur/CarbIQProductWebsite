@@ -29,7 +29,7 @@ export default function PlanFreeScreen() {
 
       <View style={styles.content}>
         <View style={styles.titleSection}>
-          <Text style={styles.title}>We want you to{'\n'}try Glycemix for free.</Text>
+          <Text style={styles.title}>We want you to{'\n'}try CarbIQ for free.</Text>
         </View>
 
         <View style={styles.phoneContainer}>
@@ -66,7 +66,7 @@ export default function PlanFreeScreen() {
           </View>
         </View>
       </View>
-
+      
       <View style={styles.footer}>
         <TouchableOpacity style={styles.tryButton} onPress={handleTryFree}>
           <Text style={styles.tryButtonText}>Try for $0.00</Text>
