@@ -13,7 +13,7 @@ function App() {
     {
       icon: Camera,
       title: "Instant Blood Sugar Impact Predictions",
-      description: "Simply snap a photo of your food and instantly get predictions of blood sugar impact—whether it's low, medium, or high, plus accurate carb counts.",
+      description: "Snap a photo of your food to get predictions of blood sugar impact—whether it's low, medium, or high, plus accurate carb counts.",
       gradient: "from-blue-500 to-blue-700"
     },
     {
@@ -130,7 +130,7 @@ function App() {
                 href="https://apps.apple.com/app/CarbIQ" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                className="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-0 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
               >
                 Download App
               </a>
@@ -150,8 +150,7 @@ function App() {
                   <span className="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent"> AI Intelligence</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Managing diabetes or prediabetes is challenging, but with CarbIQ, it's easier than ever. 
-                  Track your progress and make smarter choices with AI-powered food analysis and personalized insights.
+                  With CarbIQ, track your progress and make smarter choices with AI-powered food analysis and personalized insights.
                 </p>
               </div>
 
@@ -265,7 +264,7 @@ function App() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">How CarbIQ Works</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Three simple steps to better diabetes management with AI-powered insights
+              CarbIQ's three powerful features for better diabetes management
             </p>
           </div>
 
@@ -276,8 +275,7 @@ function App() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">1. Snap a Photo</h3>
               <p className="text-gray-600 leading-relaxed">
-                Simply take a photo of your food using our advanced camera feature. 
-                Our AI instantly recognizes ingredients and portion sizes.
+                Take a photo of your meal to receive an accurate analysis of nutritional information.
               </p>
             </div>
 
@@ -285,10 +283,9 @@ function App() {
               <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Zap className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">2. Get Instant Analysis</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">2. Personalized Glucose Tips</h3>
               <p className="text-gray-600 leading-relaxed">
-                Receive immediate predictions of blood sugar impact—low, medium, or high—
-                plus accurate carb counts and nutritional information.
+                Your blood sugar levels are tracked and analyzed to provide personalized tips to keep you on track!
               </p>
             </div>
 
@@ -296,10 +293,9 @@ function App() {
               <div className="w-20 h-20 bg-gradient-to-r from-green-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Heart className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">3. Make Smart Choices</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">3. Your Care, On-Time</h3>
               <p className="text-gray-600 leading-relaxed">
-                Get personalized meal recommendations and exercise prompts based on your 
-                real-time glucose data to maintain healthy blood sugar levels.
+              Add your diabetes reminders—doctor visits, CGM/sensor and site changes. CarbIQ keeps you on track.
               </p>
             </div>
           </div>
@@ -647,14 +643,14 @@ function App() {
               href="https://play.google.com/store/apps/details?id=com.CarbIQ" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center space-x-3 bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="inline-flex items-center justify-center space-x-3 bg-black text-white px-3 py-3 rounded-2xl hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
-              <Play className="w-6 h-6" />
+              <Play className="w-4 h-4" />
               <div className="text-left">
                 <div className="text-xs">Get it on</div>
                 <div className="text-lg font-semibold">Google Play</div>
               </div>
-            </a>
+            </a>  
           </div>
         </div>
       </section>
